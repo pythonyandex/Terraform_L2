@@ -48,6 +48,9 @@
 2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: **"netology-develop-platform-db"** ,  ```cores  = 2, memory = 2, core_fraction = 20```. Объявите её переменные с префиксом **vm_db_** в том же файле ('vms_platform.tf').  ВМ должна работать в зоне "ru-central1-b"
 3. Примените изменения.
 
+### Решение 3
+
+Сслыка на файл vms_platform.tf [vms_platform.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/Tasl3_vms_platform.tf)
 
 ### Задание 4
 
@@ -56,6 +59,9 @@
 
 В качестве решения приложите вывод значений ip-адресов команды ```terraform output```.
 
+### Решение 4
+Скриншот terraform output:
+![terraform output](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_output_t4.png)
 
 ### Задание 5
 
@@ -63,6 +69,7 @@
 2. Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
 3. Примените изменения.
 
+Сслыка на файл locals.tf [locals.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/locals.tf)
 
 ### Задание 6
 
