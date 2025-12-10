@@ -25,7 +25,7 @@
 Скриншот с Yandex Cloud 
 ![Скриншот с Yandex Cloud](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_yc_vm_t1.png)
 Скриншот сurl ifconfig.me:
-![Скриншот сurl ifconfig.me]([https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_yc_vm_t1.png](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_curl_t1.png))
+![Скриншот сurl ifconfig.me](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_curl_t1.png)
 
 Ответьте, как в процессе обучения могут пригодиться параметры ```preemptible = true``` и ```core_fraction=5``` в параметрах ВМ:
 
