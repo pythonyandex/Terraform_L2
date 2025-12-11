@@ -70,8 +70,9 @@
 1. В файле locals.tf опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию ${..} с НЕСКОЛЬКИМИ переменными по примеру из лекции.
 2. Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
 3. Примените изменения.
+### Решение 5
 
-Сслыка на файл locals.tf [locals.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/locals.tf)
+Сслыка на файл [locals.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/locals.tf)
 
 ### Задание 6
 
@@ -109,6 +110,10 @@
 5. Найдите и закоментируйте все, более не используемые переменные проекта.
 6. Проверьте terraform plan. Изменений быть не должно.
 
+
+### Решение 6
+Сслыка на файл [locals.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_vms_resource.tf)
+
 ------
 
 ## Дополнительное задание (со звёздочкой*)
@@ -131,6 +136,9 @@
 
 В качестве решения предоставьте необходимые команды и их вывод.
 
+### Решение 7
+Скриншот terraform console:
+![terraform console](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_console_t7.png)
 ------
 
 ### Задание 8*
@@ -158,6 +166,11 @@ test = [
 ]
 ```
 2. Напишите выражение в terraform console, которое позволит вычленить строку "ssh -o 'StrictHostKeyChecking=no' ubuntu@62.84.124.117" из этой переменной.
+
+### Решение 8
+Ссылка на файл [variables.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_test_t8.tf)
+Скриншот terraform console:
+![terraform console](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_output_t8.png)
 ------
 
 ------
@@ -166,5 +179,11 @@ test = [
 
 Используя инструкцию https://cloud.yandex.ru/ru/docs/vpc/operations/create-nat-gateway#tf_1, настройте для ваших ВМ nat_gateway. Для проверки уберите внешний IP адрес (nat=false) у ваших ВМ и проверьте доступ в интернет с ВМ, подключившись к ней через serial console. Для подключения предварительно через ssh измените пароль пользователя: ```sudo passwd ubuntu```
 
+### Решение 9
+Ссылка на файл [main.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/Task9_main.tf)
+
+
 ### Правила приёма работыДля подключения предварительно через ssh измените пароль пользователя: sudo passwd ubuntu
 В качестве результата прикрепите ссылку на MD файл с описанием выполненой работы в вашем репозитории. Так же в репозитории должен присутсвовать ваш финальный код проекта.
+
+
