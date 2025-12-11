@@ -171,7 +171,8 @@ test = [
 
 ### Решение 8
 
-Ссылка на файл [variables.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_test_t8.tf)
+Ссылка на файл [variables.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_test_t8.tf) .
+
 Скриншот terraform console:
 ![terraform console](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_output_t8.png)
 
