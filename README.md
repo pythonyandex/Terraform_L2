@@ -112,7 +112,7 @@
 
 
 ### Решение 6
-Сслыка на файл [locals.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_vms_resource.tf)
+Сслыка на файл [variables.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_vms_resource.tf)
 
 ------
 
@@ -137,8 +137,10 @@
 В качестве решения предоставьте необходимые команды и их вывод.
 
 ### Решение 7
+
 Скриншот terraform console:
 ![terraform console](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_console_t7.png)
+
 ------
 
 ### Задание 8*
@@ -168,12 +170,11 @@ test = [
 2. Напишите выражение в terraform console, которое позволит вычленить строку "ssh -o 'StrictHostKeyChecking=no' ubuntu@62.84.124.117" из этой переменной.
 
 ### Решение 8
+
 Ссылка на файл [variables.tf](https://github.com/pythonyandex/Terraform_L2/blob/main/variables_test_t8.tf)
 Скриншот terraform console:
 ![terraform console](https://github.com/pythonyandex/Terraform_L2/blob/main/terraform_output_t8.png)
-------
 
-------
 
 ### Задание 9*
 
