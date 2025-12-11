@@ -12,7 +12,6 @@ resource "yandex_vpc_gateway" "nat_gateway" {
   shared_egress_gateway {}
 }
 
-# Создание таблицы маршрутизации
 resource "yandex_vpc_route_table" "nat_route_table" {
   name       = "nat-route-table-${var.environment}"
   network_id = yandex_vpc_network.develop.id
@@ -28,7 +27,7 @@ resource "yandex_vpc_subnet" "develop" {
   zone           = var.default_zone
   network_id     = yandex_vpc_network.develop.id
   v4_cidr_blocks = var.default_cidr
-  route_table_id = yandex_vpc_route_table.nat_route_table.id  # Добавьте эту строку
+  route_table_id = yandex_vpc_route_table.nat_route_table.id  
 }
 
 resource "yandex_vpc_subnet" "develop_b" {
@@ -36,7 +35,7 @@ resource "yandex_vpc_subnet" "develop_b" {
   zone           = "ru-central1-b"
   network_id     = yandex_vpc_network.develop.id
   v4_cidr_blocks = ["10.0.2.0/24"]
-  route_table_id = yandex_vpc_route_table.nat_route_table.id  # Добавьте эту строку
+  route_table_id = yandex_vpc_route_table.nat_route_table.id 
 }
 
 
